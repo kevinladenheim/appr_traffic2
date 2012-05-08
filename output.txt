@@ -1,0 +1,34 @@
+
+
+This is an attempt to use Net::HTTP and JSON.parse on mapquest data.
+But the mapquest json has a problem so I'm pulling some simple 
+synonym data from another site to test the rest of the code.
+
+
+
+
+billybob:~/apprentice/traffic2$ rvm use 1.9.3
+Using /usr/share/ruby-rvm/gems/ruby-1.9.3-p194
+kpl@billybob:~/apprentice/traffic2$ ./traffic.rb 
+{"noun":{"syn":["spoonful","container","containerful","cutlery","eating utensil","wood"]},"verb":{"syn":["smooch","make out","neck","remove","snog","take","take away","withdraw"]}}
+
+{"noun":{"syn":["spoonful","container","containerful","cutlery","eating utensil","wood"]},"verb":{"syn":["smooch","make out","neck","remove","snog","take","take away","withdraw"]}}
+
+spoonful
+container
+containerful
+cutlery
+eating utensil
+wood
+smooch
+make out
+neck
+remove
+snog
+take
+take away
+withdraw
+
+
+HTTP Status: 200
+
